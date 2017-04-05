@@ -18,7 +18,7 @@ function PagerDuty() {
    * @param {string} [options.access_token] - PagerDuty access token
    *
    * @example
-   * const PagerDuty = require('@mapbox/pagerduty').PagerDuty;
+   * const PagerDuty = require('@mapbox/pagerduty');
    * const pd = new PagerDuty();
    * const id = 'PPPPPPA';
    * pd.get({
@@ -73,7 +73,7 @@ function PagerDuty() {
    * @param {string} [options.access_token] - PagerDuty access token
    *
    * @example
-   * const PagerDuty = require('@mapbox/pagerduty').PagerDuty;
+   * const PagerDuty = require('@mapbox/pagerduty');
    * const pd = new PagerDuty();
    * pd.post({
    *   path: 'users',
@@ -131,7 +131,7 @@ function PagerDuty() {
    * @param {string} [options.access_token] - PagerDuty access token
    *
    * @example
-   * const PagerDuty = require('@mapbox/pagerduty').PagerDuty;
+   * const PagerDuty = require('@mapbox/pagerduty');
    * const pd = new PagerDuty();
    * const id = 'PPPPPPA';
    * pd.put({
@@ -180,7 +180,7 @@ function PagerDuty() {
    * @param {string} [options.access_token] - PagerDuty access token
    *
    * @example
-   * const PagerDuty = require('@mapbox/pagerduty').PagerDuty;
+   * const PagerDuty = require('@mapbox/pagerduty');
    * const pd = new PagerDuty();
    * const id = 'PPPPPPA';
    * pd.delete({

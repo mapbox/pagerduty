@@ -22,7 +22,7 @@ explicitly, or read from the `CustomPagerDutyToken` environment variable.
 **Examples**
 
 ```javascript
-const PagerDuty = require('@mapbox/pagerduty').PagerDuty;
+const PagerDuty = require('@mapbox/pagerduty');
 const pd = new PagerDuty();
 const id = 'PPPPPPA';
 pd.get({
@@ -50,7 +50,7 @@ provided explicitly, or read from the `CustomPagerDutyToken` environment variabl
 **Examples**
 
 ```javascript
-const PagerDuty = require('@mapbox/pagerduty').PagerDuty;
+const PagerDuty = require('@mapbox/pagerduty');
 const pd = new PagerDuty();
 pd.post({
   path: 'users',
@@ -89,7 +89,7 @@ provided explicitly, or read from the `CustomPagerDutyToken` environment variabl
 **Examples**
 
 ```javascript
-const PagerDuty = require('@mapbox/pagerduty').PagerDuty;
+const PagerDuty = require('@mapbox/pagerduty');
 const pd = new PagerDuty();
 const id = 'PPPPPPA';
 pd.put({
@@ -119,7 +119,7 @@ variable.
 **Examples**
 
 ```javascript
-const PagerDuty = require('@mapbox/pagerduty').PagerDuty;
+const PagerDuty = require('@mapbox/pagerduty');
 const pd = new PagerDuty();
 const id = 'PPPPPPA';
 pd.delete({
