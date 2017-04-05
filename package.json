@@ -26,6 +26,7 @@
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-plugin-node": "^4.2.2",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "tape": "^4.6.3"
   }
 }
