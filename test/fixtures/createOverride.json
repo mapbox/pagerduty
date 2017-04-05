@@ -1,0 +1,14 @@
+{
+  "override": {
+    "start": "2017-04-06T12:00:00Z",
+    "end": "2017-04-07T12:00:00Z",
+    "user": {
+      "id": "PPPPPPA",
+      "type": "user_reference",
+      "summary": "Dev Null",
+      "self": "https://api.pagerduty.com/users/PPPPPPA",
+      "html_url": "https://company.pagerduty.com/users/PPPPPPA"
+    },
+    "id": "QQQQQQQQQQQQQA"
+  }
+}

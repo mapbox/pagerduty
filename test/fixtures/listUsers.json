@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "name": "Dev Null",
+      "email": "devnull@company.com",
+      "time_zone": "America/New_York",
+      "color": "blue-violet",
+      "avatar_url": "https://secure.gravatar.com/avatar/0197651408f541ccb47e93c04a0ed8e8.png?d=mm&r=PG",
+      "billed": true,
+      "role": "user",
+      "description": "Software Engineer",
+      "invitation_sent": false,
+      "contact_methods": [
+        {
+          "id": "PPPPPPB",
+          "type": "email_contact_method_reference",
+          "summary": "Default",
+          "self": "https://api.pagerduty.com/users/PPPPPPA/contact_methods/PPPPPPB",
+          "html_url": null
+        },
+        {
+          "id": "PPPPPPC",
+          "type": "phone_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PPPPPPA/contact_methods/PPPPPPC",
+          "html_url": null
+        },
+        {
+          "id": "PPPPPPD",
+          "type": "push_notification_contact_method_reference",
+          "summary": "iPhone",
+          "self": "https://api.pagerduty.com/users/PPPPPPA/contact_methods/PPPPPPD",
+          "html_url": null
+        },
+        {
+          "id": "PPPPPPE",
+          "type": "sms_contact_method_reference",
+          "summary": "Mobile",
+          "self": "https://api.pagerduty.com/users/PPPPPPA/contact_methods/PPPPPPE",
+          "html_url": null
+        }
+      ],
+      "notification_rules": [
+        {
+          "id": "PPPPPPF",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PPPPPPB",
+          "self": "https://api.pagerduty.com/users/PPPPPPA/notification_rules/PPPPPPF",
+          "html_url": null
+        },
+        {
+          "id": "PPPPPPG",
+          "type": "assignment_notification_rule_reference",
+          "summary": "2 minutes: channel PPPPPPC",
+          "self": "https://api.pagerduty.com/users/PPPPPPA/notification_rules/PPPPPPG",
+          "html_url": null
+        },
+        {
+          "id": "PPPPPPH",
+          "type": "assignment_notification_rule_reference",
+          "summary": "0 minutes: channel PPPPPPD",
+          "self": "https://api.pagerduty.com/users/PPPPPPA/notification_rules/PPPPPPH",
+          "html_url": null
+        }
+      ],
+      "job_title": null,
+      "teams": [],
+      "id": "PPPPPPA",
+      "type": "user",
+      "summary": "Dev Null",
+      "self": "https://api.pagerduty.com/users/PPPPPPA",
+      "html_url": "https://company.pagerduty.com/users/PPPPPPA"
+    }
+  ]
+}

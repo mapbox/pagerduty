@@ -1,0 +1,92 @@
+{
+  "schedules": [
+    {
+      "id": "PPPPPPA",
+      "type": "schedule",
+      "summary": "cat-one",
+      "self": "https://api.pagerduty.com/schedules/PPPPPPA",
+      "html_url": "https://company.pagerduty.com/schedules/PPPPPPA",
+      "name": "cat-one",
+      "time_zone": "America/New_York",
+      "description": null,
+      "escalation_policies": [
+        {
+          "id": "PPPPPPB",
+          "type": "escalation_policy_reference",
+          "summary": "cats-api",
+          "self": "https://api.pagerduty.com/escalation_policies/PPPPPPB",
+          "html_url": "https://company.pagerduty.com/escalation_policies/PPPPPPB"
+        },
+        {
+          "id": "PPPPPPC",
+          "type": "escalation_policy_reference",
+          "summary": "dogs-api",
+          "self": "https://api.pagerduty.com/escalation_policies/PPPPPPC",
+          "html_url": "https://company.pagerduty.com/escalation_policies/PPPPPPC"
+        },
+        {
+          "id": "PPPPPPD",
+          "type": "escalation_policy_reference",
+          "summary": "birds-api",
+          "self": "https://api.pagerduty.com/escalation_policies/PPPPPPD",
+          "html_url": "https://company.pagerduty.com/escalation_policies/PPPPPPD"
+        }
+      ],
+      "users": [
+        {
+          "id": "PPPPPPE",
+          "type": "user_reference",
+          "summary": "Dev Null",
+          "self": "https://api.pagerduty.com/users/PPPPPPE",
+          "html_url": "https://company.pagerduty.com/users/PPPPPPE"
+        }
+      ],
+      "privilege": null,
+      "teams": []
+    },
+    {
+      "id": "PPPPPPF",
+      "type": "schedule",
+      "summary": "cat-two",
+      "self": "https://api.pagerduty.com/schedules/PPPPPPF",
+      "html_url": "https://company.pagerduty.com/schedules/PPPPPPF",
+      "name": "cat-two",
+      "time_zone": "America/New_York",
+      "description": null,
+      "escalation_policies": [
+        {
+          "id": "PPPPPPB",
+          "type": "escalation_policy_reference",
+          "summary": "cats-api",
+          "self": "https://api.pagerduty.com/escalation_policies/PPPPPPB",
+          "html_url": "https://company.pagerduty.com/escalation_policies/PPPPPPB"
+        },
+        {
+          "id": "PPPPPPC",
+          "type": "escalation_policy_reference",
+          "summary": "dogs-api",
+          "self": "https://api.pagerduty.com/escalation_policies/PPPPPPC",
+          "html_url": "https://company.pagerduty.com/escalation_policies/PPPPPPC"
+        },
+        {
+          "id": "PPPPPPD",
+          "type": "escalation_policy_reference",
+          "summary": "birds-api",
+          "self": "https://api.pagerduty.com/escalation_policies/PPPPPPD",
+          "html_url": "https://company.pagerduty.com/escalation_policies/PPPPPPD"
+        }
+      ],
+      "users": [
+        {
+          "id": "PPPPPPE",
+          "type": "user_reference",
+          "summary": "Dev Null",
+          "self": "https://api.pagerduty.com/users/PPPPPPE",
+          "html_url": "https://company.pagerduty.com/users/PPPPPPE"
+        }
+      ],
+      "privilege": null,
+      "teams": []
+    }
+  ]
+}
