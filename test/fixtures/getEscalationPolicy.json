@@ -1,0 +1,64 @@
+{
+  "escalation_policy": {
+    "id": "PPPPPPA",
+    "type": "escalation_policy",
+    "summary": "cats-api",
+    "self": "https://api.pagerduty.com/escalation_policies/PPPPPPA",
+    "html_url": "https://company.pagerduty.com/escalation_policies/PPPPPPA",
+    "name": "cats-api",
+    "escalation_rules": [
+      {
+        "id": "PPPPPPB",
+        "escalation_delay_in_minutes": 5,
+        "targets": [
+          {
+            "id": "PPPPPPC",
+            "type": "schedule_reference",
+            "summary": "cat-one",
+            "self": "https://api.pagerduty.com/schedules/PPPPPPC",
+            "html_url": "https://company.pagerduty.com/schedules/PPPPPPC"
+          }
+        ]
+      },
+      {
+        "id": "PPPPPPD",
+        "escalation_delay_in_minutes": 5,
+        "targets": [
+          {
+            "id": "PPPPPPE",
+            "type": "schedule_reference",
+            "summary": "cat-two",
+            "self": "https://api.pagerduty.com/schedules/PPPPPPE",
+            "html_url": "https://company.pagerduty.com/schedules/PPPPPPE"
+          }
+        ]
+      },
+      {
+        "id": "PPPPPPF",
+        "escalation_delay_in_minutes": 5,
+        "targets": [
+          {
+            "id": "PPPPPPG",
+            "type": "user_reference",
+            "summary": "Dev Null",
+            "self": "https://api.pagerduty.com/users/PPPPPPG",
+            "html_url": "https://company.pagerduty.com/users/PPPPPPG"
+          }
+        ]
+      }
+    ],
+    "services": [
+      {
+        "id": "PPPPPPH",
+        "type": "service_reference",
+        "summary": "cats-api",
+        "self": "https://api.pagerduty.com/services/PPPPPPH",
+        "html_url": "https://company.pagerduty.com/services/PPPPPPH"
+      }
+    ],
+    "num_loops": 5,
+    "teams": [],
+    "description": "",
+    "privilege": null
+  }
+}

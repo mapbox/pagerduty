@@ -1,0 +1,32 @@
+{
+  "name": "@mapbox/pagerduty",
+  "version": "1.0.0",
+  "description": "A Node.js SDK for the PagerDuty v2 API",
+  "main": "index.js",
+  "engines": {
+    "node": "4.4.3"
+  },
+  "scripts": {
+    "pretest": "eslint lib test index.js",
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/pagerduty.git"
+  },
+  "author": "Mapbox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapbox/pagerduty/issues"
+  },
+  "homepage": "https://github.com/mapbox/pagerduty#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-node": "^4.2.2",
+    "express": "^4.15.2",
+    "tape": "^4.6.3"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "user": {
+    "name": "Dev Null",
+    "email": "devnull@company.com",
+    "time_zone": "America/New_York",
+    "color": "blue-violet",
+    "avatar_url": "https://secure.gravatar.com/avatar/0197651408f541ccb47e93c04a0ed8e8.png?d=mm&r=PG",
+    "billed": true,
+    "role": "user",
+    "description": null,
+    "invitation_sent": true,
+    "contact_methods": [
+      {
+        "id": "PPPPPPB",
+        "type": "email_contact_method_reference",
+        "summary": "Default",
+        "self": "https://api.pagerduty.com/users/PPPPPPA/contact_methods/PPPPPPB",
+        "html_url": null
+      }
+    ],
+    "notification_rules": [
+      {
+        "id": "PPPPPPC",
+        "type": "assignment_notification_rule_reference",
+        "summary": "0 minutes: channel PPPPPPB",
+        "self": "https://api.pagerduty.com/users/PPPPPPA/notification_rules/PPPPPPC",
+        "html_url": null
+      },
+      {
+        "id": "PPPPPPD",
+        "type": "assignment_notification_rule_reference",
+        "summary": "0 minutes: channel PPPPPPB",
+        "self": "https://api.pagerduty.com/users/PPPPPPA/notification_rules/PPPPPPD",
+        "html_url": null
+      }
+    ],
+    "job_title": null,
+    "teams": [],
+    "id": "PPPPPPA",
+    "type": "user",
+    "summary": "Dev Null",
+    "self": "https://api.pagerduty.com/users/PPPPPPA",
+    "html_url": "https://company.pagerduty.com/users/PPPPPPA"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "notes": [
+    {
+      "id": "PPPPPPB",
+      "user": {
+        "id": "PPPPPPA",
+        "type": "user_reference",
+        "summary": "Dev Null",
+        "self": "https://api.pagerduty.com/users/PPPPPPA",
+        "html_url": "https://company.pagerduty.com/users/PPPPPPA"
+      },
+      "content": "This is a sample note",
+      "created_at": "2017-04-04T08:00:00-04:00"
+    }
+  ]
+}

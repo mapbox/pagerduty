@@ -1,0 +1,245 @@
+{
+  "log_entries": [
+    {
+      "id": "RRRRRRRRRRRRRRRRRRRRRRRRRA",
+      "type": "annotate_log_entry",
+      "summary": "Note added by Dev Null",
+      "self": "https://api.pagerduty.com/log_entries/RRRRRRRRRRRRRRRRRRRRRRRRRA",
+      "html_url": null,
+      "created_at": "2017-04-04T12:00:00Z",
+      "agent": {
+        "id": "PPPPPPA",
+        "type": "user_reference",
+        "summary": "Dev Null",
+        "self": "https://api.pagerduty.com/users/PPPPPPA",
+        "html_url": "https://company.pagerduty.com/users/PPPPPPA"
+      },
+      "channel": {
+        "type": "note",
+        "summary": "This is a sample note"
+      },
+      "service": {
+        "id": "PPPPPPB",
+        "type": "service_reference",
+        "summary": "cats-api",
+        "self": "https://api.pagerduty.com/services/PPPPPPB",
+        "html_url": "https://company.pagerduty.com/services/PPPPPPB"
+      },
+      "incident": {
+        "id": "PPPPPPC",
+        "type": "incident_reference",
+        "summary": "[alarm] cats-api-production",
+        "self": "https://api.pagerduty.com/incidents/PPPPPPC",
+        "html_url": "https://company.pagerduty.com/incidents/PPPPPPC"
+      },
+      "teams": [],
+      "contexts": []
+    },
+    {
+      "id": "RRRRRRRRRRRRRRRRRRRRRRRRRB",
+      "type": "resolve_log_entry",
+      "summary": "Resolved by Dev Null",
+      "self": "https://api.pagerduty.com/log_entries/RRRRRRRRRRRRRRRRRRRRRRRRRB",
+      "html_url": null,
+      "created_at": "2017-04-04T12:01:00Z",
+      "agent": {
+        "id": "PPPPPPA",
+        "type": "user_reference",
+        "summary": "Dev Null",
+        "self": "https://api.pagerduty.com/users/PPPPPPA",
+        "html_url": "https://company.pagerduty.com/users/PPPPPPA"
+      },
+      "channel": {
+        "type": "slack",
+        "user": {
+          "id": "U00000000",
+          "name": "devnull"
+        },
+        "team": {
+          "id": "T00000000",
+          "domain": "company"
+        },
+        "channel": {
+          "id": "C00000000",
+          "name": "cats"
+        }
+      },
+      "service": {
+        "id": "PPPPPPB",
+        "type": "service_reference",
+        "summary": "cats-api",
+        "self": "https://api.pagerduty.com/services/PPPPPPB",
+        "html_url": "https://company.pagerduty.com/services/PPPPPPB"
+      },
+      "incident": {
+        "id": "PPPPPPC",
+        "type": "incident_reference",
+        "summary": "[alarm] cats-api-production",
+        "self": "https://api.pagerduty.com/incidents/PPPPPPC",
+        "html_url": "https://company.pagerduty.com/incidents/PPPPPPC"
+      },
+      "teams": [],
+      "contexts": [],
+      "event_details": {}
+    },
+    {
+      "id": "RRRRRRRRRRRRRRRRRRRRRRRRRC",
+      "type": "notify_log_entry",
+      "summary": "Notified Dev Null by email",
+      "self": "https://api.pagerduty.com/log_entries/RRRRRRRRRRRRRRRRRRRRRRRRRC",
+      "html_url": null,
+      "created_at": "2017-04-04T12:00:00Z",
+      "channel": {
+        "type": "auto",
+        "notification": {
+          "type": "email",
+          "address": "devnull@company.com",
+          "status": "success"
+        }
+      },
+      "service": {
+        "id": "PPPPPPB",
+        "type": "service_reference",
+        "summary": "cats-api",
+        "self": "https://api.pagerduty.com/services/PPPPPPB",
+        "html_url": "https://company.pagerduty.com/services/PPPPPPB"
+      },
+      "incident": {
+        "id": "PPPPPPC",
+        "type": "incident_reference",
+        "summary": "[alarm] cats-api-production",
+        "self": "https://api.pagerduty.com/incidents/PPPPPPC",
+        "html_url": "https://company.pagerduty.com/incidents/PPPPPPC"
+      },
+      "teams": [],
+      "contexts": [],
+      "user": {
+        "id": "PPPPPPA",
+        "type": "user_reference",
+        "summary": "Dev Null",
+        "self": "https://api.pagerduty.com/users/PPPPPPA",
+        "html_url": "https://company.pagerduty.com/users/PPPPPPA"
+      }
+    },
+    {
+      "id": "RRRRRRRRRRRRRRRRRRRRRRRRRD",
+      "type": "notify_log_entry",
+      "summary": "Notified Dev Null by push notification",
+      "self": "https://api.pagerduty.com/log_entries/RRRRRRRRRRRRRRRRRRRRRRRRRD",
+      "html_url": null,
+      "created_at": "2017-04-04T12:00:00Z",
+      "channel": {
+        "type": "auto",
+        "notification": {
+          "type": "ios_push_notification",
+          "address": "Dev Null’s iPhone",
+          "status": "success"
+        }
+      },
+      "service": {
+        "id": "PPPPPPB",
+        "type": "service_reference",
+        "summary": "cats-api",
+        "self": "https://api.pagerduty.com/services/PPPPPPB",
+        "html_url": "https://company.pagerduty.com/services/PPPPPPB"
+      },
+      "incident": {
+        "id": "PPPPPPC",
+        "type": "incident_reference",
+        "summary": "[alarm] cats-api-production",
+        "self": "https://api.pagerduty.com/incidents/PPPPPPC",
+        "html_url": "https://company.pagerduty.com/incidents/PPPPPPC"
+      },
+      "teams": [],
+      "contexts": [],
+      "user": {
+        "id": "PPPPPPA",
+        "type": "user_reference",
+        "summary": "Dev Null",
+        "self": "https://api.pagerduty.com/users/PPPPPPA",
+        "html_url": "https://company.pagerduty.com/users/PPPPPPA"
+      }
+    },
+    {
+      "id": "RRO6932AYIOC7DHVSFS8KJ6QAM",
+      "type": "assign_log_entry",
+      "summary": "Assigned to Dev Null by timeout",
+      "self": "https://api.pagerduty.com/log_entries/RRO6932AYIOC7DHVSFS8KJ6QAM",
+      "html_url": null,
+      "created_at": "2017-04-02T18:06:41Z",
+      "agent": {
+        "id": "PPPPPPB",
+        "type": "service_reference",
+        "summary": "cats-api",
+        "self": "https://api.pagerduty.com/services/PPPPPPB",
+        "html_url": "https://company.pagerduty.com/services/PPPPPPB"
+      },
+      "channel": {
+        "type": "auto"
+      },
+      "service": {
+        "id": "PPPPPPB",
+        "type": "service_reference",
+        "summary": "cats-api",
+        "self": "https://api.pagerduty.com/services/PPPPPPB",
+        "html_url": "https://company.pagerduty.com/services/PPPPPPB"
+      },
+      "incident": {
+        "id": "PPPPPPC",
+        "type": "incident_reference",
+        "summary": "[alarm] cats-api-production",
+        "self": "https://api.pagerduty.com/incidents/PPPPPPC",
+        "html_url": "https://company.pagerduty.com/incidents/PPPPPPC"
+      },
+      "teams": [],
+      "contexts": [],
+      "assignees": [
+        {
+          "id": "PPPPPPA",
+          "type": "user_reference",
+          "summary": "Dev Null",
+          "self": "https://api.pagerduty.com/users/PPPPPPA",
+          "html_url": "https://company.pagerduty.com/users/PPPPPPA"
+        }
+      ]
+    },
+    {
+      "id": "RRRRRRRRRRRRRRRRRRRRRRRRRE",
+      "type": "trigger_log_entry",
+      "summary": "Triggered through email",
+      "self": "https://api.pagerduty.com/log_entries/RRRRRRRRRRRRRRRRRRRRRRRRRE",
+      "html_url": "https://company.pagerduty.com/incidents/PPPPPPC/log_entries/RRRRRRRRRRRRRRRRRRRRRRRRRE",
+      "created_at": "2017-04-04T12:00:00Z",
+      "agent": {
+        "id": "P000000",
+        "type": "generic_email_inbound_integration_reference",
+        "summary": "Email",
+        "self": "https://api.pagerduty.com/services/PPPPPPB/integrations/P000000",
+        "html_url": "https://company.pagerduty.com/services/PPPPPPB/integrations/P000000"
+      },
+      "channel": {
+        "type": "email",
+        "summary": "[alarm] cats-api-production"
+      },
+      "service": {
+        "id": "PPPPPPB",
+        "type": "service_reference",
+        "summary": "cats-api",
+        "self": "https://api.pagerduty.com/services/PPPPPPB",
+        "html_url": "https://company.pagerduty.com/services/PPPPPPB"
+      },
+      "incident": {
+        "id": "PPPPPPC",
+        "type": "incident_reference",
+        "summary": "[alarm] cats-api-production",
+        "self": "https://api.pagerduty.com/incidents/PPPPPPC",
+        "html_url": "https://company.pagerduty.com/incidents/PPPPPPC"
+      },
+      "teams": [],
+      "contexts": [],
+      "event_details": {
+        "description": "[alarm] cats-api-production"
+      }
+    }
+  ]
+}
