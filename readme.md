@@ -6,6 +6,11 @@ A Node.js SDK for the PagerDuty v2 API
 
 <!-- Generated, in part, by documentation.js. Update this documentation by updating the source code. -->
 
+- [get](#get)
+- [post](#post)
+- [put](#put)
+- [delete](#delete)
+
 ### get
 
 Make a GET request to the PagerDuty API. You can choose to receive a specific
