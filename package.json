@@ -4,7 +4,7 @@
   "description": "A Node.js SDK for the PagerDuty v2 API",
   "main": "index.js",
   "engines": {
-    "node": "6.11.1"
+    "node": ">=8.10.0"
   },
   "scripts": {
     "pretest": "eslint lib test index.js",
@@ -21,12 +21,13 @@
   },
   "homepage": "https://github.com/mapbox/pagerduty#readme",
   "dependencies": {
-    "request": "^2.81.0"
+    "d3-queue": "^3.0.7",
+    "request": "^2.87.0"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-plugin-node": "^4.2.2",
+    "eslint": "^5.2.0",
+    "eslint-plugin-node": "^7.0.1",
     "express": "^4.15.2",
-    "tape": "^4.6.3"
+    "tape": "^4.9.1"
   }
 }
