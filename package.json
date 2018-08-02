@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/mapbox/pagerduty#readme",
   "dependencies": {
-    "d3-queue": "^3.0.7",
     "request": "^2.87.0"
   },
   "devDependencies": {
