@@ -1,6 +1,6 @@
 {
   "name": "@mapbox/pagerduty",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A Node.js SDK for the PagerDuty v2 API",
   "main": "index.js",
   "engines": {
