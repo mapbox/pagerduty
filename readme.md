@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mapbox/pagerduty.svg?branch=master)](https://travis-ci.com/mapbox/pagerduty)
+
 # pagerduty
 
 A Node.js SDK for the PagerDuty v2 API
