@@ -18,7 +18,7 @@ A Node.js SDK for the PagerDuty v2 API
 Make a GET request to the PagerDuty API. You can choose to receive a specific
 response body property by specifying an `options.key`; otherwise, the entire
 response body will be returned. The PagerDuty access token can be provided
-explicitly, or read from the `CustomPagerDutyToken` environment variable.
+explicitly.
 
 **Parameters**
 
@@ -44,7 +44,7 @@ pd.get({
 ### post
 
 Make a POST request to the PagerDuty API. The PagerDuty access token can be
-provided explicitly, or read from the `CustomPagerDutyToken` environment variable.
+provided explicitly.
 
 **Parameters**
 
@@ -83,7 +83,7 @@ pd.post({
 ### put
 
 Make a PUT request to the PagerDuty API. The PagerDuty access token can be
-provided explicitly, or read from the `CustomPagerDutyToken` environment variable.
+provided explicitly.
 
 **Parameters**
 
@@ -115,8 +115,7 @@ pd.put({
 ### delete
 
 Make a DELETE request to the PagerDuty API. The PagerDuty access token can
-be provided explicitly, or read from the `CustomPagerDutyToken` environment
-variable.
+be provided explicitly.
 
 **Parameters**
 
