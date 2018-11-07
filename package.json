@@ -20,10 +20,14 @@
     "url": "https://github.com/mapbox/pagerduty/issues"
   },
   "homepage": "https://github.com/mapbox/pagerduty#readme",
+  "eslintConfig": {
+    "extends": "@mapbox/eslint-config-mapbox"
+  },
   "dependencies": {
     "request": "^2.87.0"
   },
   "devDependencies": {
+    "@mapbox/eslint-config-mapbox": "^1.2.1",
     "eslint": "^5.2.0",
     "eslint-plugin-node": "^7.0.1",
     "express": "^4.15.2",

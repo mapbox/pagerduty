@@ -8,7 +8,7 @@ process.env.CustomPagerDutyToken = 'test_token';
 
 /* Initialize constants */
 const fs = require('fs');
-const PagerDuty = require(`${__dirname}/../index`);
+const PagerDuty = require('../lib/pagerduty');
 const pd = new PagerDuty();
 const test = require('tape');
 let server, app;
