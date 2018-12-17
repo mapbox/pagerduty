@@ -28,6 +28,10 @@ test('[pagerduty]', (t) => {
       res.status(201).send(createOverride);
     });
 
+    app.post('/schedules/CAT/overrides', (req, res) => {
+      res.status(422).send({ errors: [{ error: 'invalid service id' }] });
+    });
+
     app.post('/users', (req, res) => {
       assert.equal(req.url, '/users', 'expected req.url');
       assert.ok(req.headers.accept && req.headers.authorization && req.headers.from, 'combined default & user-provided headers');
@@ -74,6 +78,11 @@ test('[pagerduty]', (t) => {
       res.status(204).send('');
     });
 
+    // 404 handler
+    app.use((req, res) => {
+      res.status(404).send({ error: 'Not Found' });
+    });
+
     assert.end();
   });
 
@@ -102,6 +111,29 @@ test('[pagerduty]', (t) => {
     }, (err, res) => {
       assert.ifError(err, 'should not error');
       assert.deepEqual(res.body, createOverride);
+      assert.end();
+    });
+  });
+
+  t.test('[pagerduty] [post] createOverride error', (assert) => {
+    pd.post({
+      path: 'schedules/CAT/overrides',
+      body: {
+        override: {
+          start: '2017-04-06T12:00:00+00:00',
+          end: '2017-04-07T12:00:00+00:00',
+          user: {
+            id: 'CAT',
+            type: 'user_reference',
+            summary: 'Dev Null',
+            self: 'https://api.pagerduty.com/users/PPPPPPA',
+            html_url: 'https://company.pagerduty.com/users/PPPPPPA'
+          }
+        }
+      }
+    }, (err, res) => {
+      assert.equal(err, 'HTTP status code 422: {"errors":[{"error":"invalid service id"}]}', 'expected error returned');
+      assert.equal(res, undefined, 'only error object returned');
       assert.end();
     });
   });
@@ -201,6 +233,16 @@ test('[pagerduty]', (t) => {
     }, (err, res) => {
       assert.ifError(err, 'should not error');
       assert.deepEqual(res, [listUsers], 'expected pd.get response');
+      assert.end();
+    });
+  });
+
+  t.test('[pagerduty] [get] handles 404 error', (assert) => {
+    pd.get({
+      path: 'undefined'
+    }, (err, res) => {
+      assert.equal(err, 'HTTP status code 404: {"error":"Not Found"}');
+      assert.equal(res, undefined, 'only error object returned');
       assert.end();
     });
   });
