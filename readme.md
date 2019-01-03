@@ -6,6 +6,21 @@ A Node.js SDK for the PagerDuty v2 API
 
 ## API
 
+First, create a new PagerDuty SDK object. A PagerDuty API token that will be used by default for all methods can be included by specifying the `pagerDutyToken` option.
+
+**Example**
+
+```javascript
+const PagerDuty = require('@mapbox/pagerduty');
+const pd = new PagerDuty({
+  pagerDutyToken: process.env.API_TOKEN
+});
+
+pd.get({
+  path: 'services'
+  ...
+```
+
 <!-- Generated, in part, by documentation.js. Update this documentation by updating the source code. -->
 
 - [get](#get)
@@ -24,9 +39,9 @@ explicitly.
 
 -   `options.path` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** URL path and query
 -   `options.key` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** Response body property to return
--   `options.access_token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
+-   `options.token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
 
-**Examples**
+**Example**
 
 ```javascript
 const PagerDuty = require('@mapbox/pagerduty');
@@ -52,9 +67,9 @@ provided explicitly.
 -   `options.body` **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** POST request body
 -   `options.headers` **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)?** Additional headers, excluding `Accept`
     and `Authorization`
--   `options.access_token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
+-   `options.token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
 
-**Examples**
+**Example**
 
 ```javascript
 const PagerDuty = require('@mapbox/pagerduty');
@@ -91,9 +106,9 @@ provided explicitly.
 -   `options.body` **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** PUT request body
 -   `options.headers` **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)?** Additional headers, excluding `Accept`
     and `Authorization`
--   `options.access_token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
+-   `options.token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
 
-**Examples**
+**Example**
 
 ```javascript
 const PagerDuty = require('@mapbox/pagerduty');
@@ -120,9 +135,9 @@ be provided explicitly.
 **Parameters**
 
 -   `options.path` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** URL path and query
--   `options.access_token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
+-   `options.token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
 
-**Examples**
+**Example**
 
 ```javascript
 const PagerDuty = require('@mapbox/pagerduty');
