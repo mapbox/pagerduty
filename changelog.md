@@ -1,3 +1,7 @@
+### 3.1.0
+
+- Sets a default timeout of 10 seconds and supports custom timeout option
+
 ### 3.0.0
 
 - Module now exports a PagerDuty() class
