@@ -1,4 +1,4 @@
-### 3.1.0
+### 4.0.0
 
 - Sets a default timeout of 10 seconds and supports custom timeout option
 

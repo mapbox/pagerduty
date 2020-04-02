@@ -8,6 +8,12 @@ A Node.js SDK for the PagerDuty v2 API
 
 First, create a new PagerDuty SDK object. A PagerDuty API token that will be used by default for all methods can be included by specifying the `pagerDutyToken` option.
 
+**Parameters**
+
+-   `options.pagerDutyToken` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** PagerDuty access token
+-   `options.timeout` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** number of milliseconds used for read and connection timouets - defaults to 10 seconds if not specified
+
+
 **Example**
 
 ```javascript
