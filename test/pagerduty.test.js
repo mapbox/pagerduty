@@ -281,7 +281,7 @@ test('[pagerduty]', (t) => {
       path: 'fakeDelay',
       timeout: 1
     }, (err) => {
-      assert.equal(err.code, 'ETIMEDOUT');
+      assert.ok(['ETIMEDOUT', 'ESOCKETTIMEDOUT'].includes(err.code));
       assert.end();
     });
   });
@@ -291,7 +291,7 @@ test('[pagerduty]', (t) => {
     pd1.get({
       path: 'fakeDelay'
     }, (err) => {
-      assert.equal(err.code, 'ETIMEDOUT');
+      assert.ok(['ETIMEDOUT', 'ESOCKETTIMEDOUT'].includes(err.code));
       assert.end();
     });
   });
