@@ -1,6 +1,6 @@
 ### 4.0.0
 
-- Sets a default timeout of 10 seconds and supports custom timeout option for the client
+- Sets a default timeout of 10 seconds and supports custom timeout option for both the client and methods
 
 ### 3.0.0
 

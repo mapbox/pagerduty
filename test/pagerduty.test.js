@@ -78,6 +78,10 @@ test('[pagerduty]', (t) => {
       res.status(204).send('');
     });
 
+    app.get('/fakeDelay', (req, res) => {
+      setTimeout((()=> res.status(200).send('')), 1000);
+    });
+
     // 404 handler
     app.use((req, res) => {
       res.status(404).send({ error: 'Not Found' });
@@ -268,6 +272,26 @@ test('[pagerduty]', (t) => {
     }, (err, res) => {
       assert.ifError(err, 'should not error');
       assert.deepEqual(res.body, '');
+      assert.end();
+    });
+  });
+
+  t.test('[pagerduty] timeout method option', (assert) => {
+    pd.get({
+      path: 'fakeDelay',
+      timeout: 1
+    }, (err) => {
+      assert.equal(err.code, 'ETIMEDOUT');
+      assert.end();
+    });
+  });
+
+  t.test('[pagerduty] timeout client option', (assert) => {
+    const pd1 = new PagerDuty({ pagerDutyToken: 'fakeaccesstoken', timeout: 1 });
+    pd1.get({
+      path: 'fakeDelay'
+    }, (err) => {
+      assert.equal(err.code, 'ETIMEDOUT');
       assert.end();
     });
   });

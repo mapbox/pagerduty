@@ -46,6 +46,7 @@ explicitly.
 -   `options.path` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** URL path and query
 -   `options.key` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** Response body property to return
 -   `options.token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
+-   `options.timeout` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** number of milliseconds used for read and connection timouets
 
 **Example**
 
@@ -74,6 +75,7 @@ provided explicitly.
 -   `options.headers` **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)?** Additional headers, excluding `Accept`
     and `Authorization`
 -   `options.token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
+-   `options.timeout` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** number of milliseconds used for read and connection timouets
 
 **Example**
 
@@ -113,6 +115,7 @@ provided explicitly.
 -   `options.headers` **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)?** Additional headers, excluding `Accept`
     and `Authorization`
 -   `options.token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
+-   `options.timeout` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** number of milliseconds used for read and connection timouets
 
 **Example**
 
@@ -142,6 +145,7 @@ be provided explicitly.
 
 -   `options.path` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** URL path and query
 -   `options.token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
+-   `options.timeout` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** number of milliseconds used for read and connection timouets
 
 **Example**
 
