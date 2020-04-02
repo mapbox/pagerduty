@@ -8,6 +8,12 @@ A Node.js SDK for the PagerDuty v2 API
 
 First, create a new PagerDuty SDK object. A PagerDuty API token that will be used by default for all methods can be included by specifying the `pagerDutyToken` option.
 
+**Parameters**
+
+-   `options.pagerDutyToken` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** PagerDuty access token
+-   `options.timeout` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** number of milliseconds used for read and connection timouets - defaults to 10 seconds if not specified
+
+
 **Example**
 
 ```javascript
@@ -40,6 +46,7 @@ explicitly.
 -   `options.path` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** URL path and query
 -   `options.key` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** Response body property to return
 -   `options.token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
+-   `options.timeout` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** number of milliseconds used for read and connection timouets
 
 **Example**
 
@@ -68,6 +75,7 @@ provided explicitly.
 -   `options.headers` **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)?** Additional headers, excluding `Accept`
     and `Authorization`
 -   `options.token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
+-   `options.timeout` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** number of milliseconds used for read and connection timouets
 
 **Example**
 
@@ -107,6 +115,7 @@ provided explicitly.
 -   `options.headers` **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)?** Additional headers, excluding `Accept`
     and `Authorization`
 -   `options.token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
+-   `options.timeout` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** number of milliseconds used for read and connection timouets
 
 **Example**
 
@@ -136,6 +145,7 @@ be provided explicitly.
 
 -   `options.path` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** URL path and query
 -   `options.token` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** PagerDuty access token
+-   `options.timeout` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?** number of milliseconds used for read and connection timouets
 
 **Example**
 
