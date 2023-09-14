@@ -4,7 +4,7 @@
   "description": "A Node.js SDK for the PagerDuty v2 API",
   "main": "index.js",
   "engines": {
-    "node": ">=8.10.0"
+    "node": ">=18"
   },
   "scripts": {
     "pretest": "eslint lib test index.js",
