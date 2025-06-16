@@ -261,6 +261,8 @@ test('[pagerduty]', (t) => {
       }
     }, (err, res) => {
       assert.ifError(err, 'should not error');
+      // eslint-disable-next-line no-console
+      console.log('HI HELLO res.body', res.body);
       assert.deepEqual(res.body, updateUser, 'expected pd.put response');
       assert.end();
     });
