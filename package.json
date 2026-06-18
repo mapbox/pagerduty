@@ -1,6 +1,6 @@
 {
   "name": "@mapbox/pagerduty",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "A Node.js SDK for the PagerDuty v2 API",
   "main": "index.js",
   "engines": {
@@ -29,5 +29,8 @@
     "eslint-plugin-node": "^7.0.1",
     "express": "^4.18.2",
     "tape": "^4.9.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
